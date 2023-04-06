@@ -1,0 +1,139 @@
+.container {
+  padding: 0 160px;
+}
+
+.appbar {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 0 160px;
+  height: 80px;
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    .toolbarLeft {
+      display: flex;
+      column-gap: 40px;
+    }
+
+    .toolbarRight {
+      display: flex;
+      column-gap: 24px;
+    }
+  }
+}
+
+.toolbarLeft {
+  .linkIcon {
+    .imgIcon {
+      width: 200px;
+    }
+  }
+  .pageLinkList {
+    display: flex;
+    column-gap: 16px;
+    .pageLinkItem {
+      text-decoration: none;
+      .pageName {
+        font-size: 22px;
+        color: #b6bcc8;
+      }
+      .activePageName {
+        font-size: 22px;
+        color: #1d2025;
+      }
+    }
+  }
+}
+
+.toolbarRight {
+  .cartIconBox {
+    position: relative;
+    .cartIcon {
+      font-size: 36px;
+    }
+    .cartNotice {
+      position: absolute;
+      background-color: #ff7d1a;
+      width: 20px;
+      height: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      top: -5px;
+      right: 0px;
+      font-size: 12px;
+      border-radius: 100px;
+    }
+  }
+
+  .loginIcon {
+    font-size: 36px;
+  }
+}
+
+.cartHeadingBox {
+  height: 50px;
+  padding-left: 16px;
+  border-bottom: 1px solid #ccc;
+  min-width: 340px;
+  .cartHeadingTitle {
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
+
+.cartItemBox {
+  display: flex;
+  column-gap: 12px;
+  max-width: 340px;
+  height: 60px;
+  .cartItemImageBox {
+    .cartItemImage {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .cartItemInfoBox {
+    max-width: 220px;
+    min-width: 220px;
+    .cartItemName {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 1;
+      overflow: hidden;
+    }
+    .cartItemPriceBox {
+      display: flex;
+      .cartItemPrice {
+      }
+      .cartItemTotalPrice {
+        margin-left: 8px;
+        font-weight: 700;
+        font-size: 18px;
+      }
+    }
+  }
+  .deleteButtonBox {
+    flex: 2;
+    .deleteButton {
+    }
+  }
+}
+
+.paymentButtonBox {
+  margin-top: 12px;
+  padding: 0 16px;
+  display: flex;
+  justify-content: center;
+  .deleteButton {
+    background-color: #ff7d1a;
+    width: 100%;
+  }
+}
+
+.mainContent {
+  margin-top: 80px;
+}

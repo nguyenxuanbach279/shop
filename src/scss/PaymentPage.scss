@@ -1,0 +1,44 @@
+.paymentPageBox {
+  .paymentPageTitle {
+    line-height: 60px;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .tableProduct {
+  }
+
+  .totalPrice {
+    font-size: 28px;
+  }
+}
+
+.tableProduct {
+  .imgBox {
+    width: 60px;
+    height: 60px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .productPrice {
+    color: #b6bcc8;
+    text-decoration: line-through;
+    user-select: none;
+  }
+  .productSalePrice {
+    user-select: none;
+    font-size: 18px;
+  }
+  .descrease-btn {
+    height: 40px;
+  }
+  .increase-btn {
+    height: 40px;
+  }
+  .quantity {
+    font-size: 18px;
+    user-select: none;
+  }
+}
